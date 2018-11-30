@@ -68,13 +68,11 @@ public class Lab_9 {
             output.close();
         }
         catch(FileNotFoundException e) {
-            System.out.println("Error. File " + INPUT_FILE + " not found.");
-            System.out.println(e.getMessage());
+            System.out.println("File Not Found: " + e.getMessage());
             System.exit(-1);
         }
         catch(InputMismatchException e) {
             System.out.println("Error. Unexpected input data type.");
-            System.out.println(e.getMessage());
             System.exit(-1);
         }
 
