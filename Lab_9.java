@@ -19,6 +19,7 @@ public class Lab_9 {
     final static int TOTAL_PAY = 2;
     final static int PAY_SIZE = 3;
     final static double FULL_WEEK = 40.0;
+    final static double OVERTIME_RATE = 1.75;
 
     final static String HEADER = 
     "------------------------------ PAYROLL REPORT ------------------------------------------\n" +
@@ -90,8 +91,8 @@ public class Lab_9 {
         }
         // > 40.00 hours
         else {
-            pay[REG_PAY] = FULL_WEEK * rate;
-            pay[OT_PAY] = (hours - FULL_WEEK) * rate;
+            pay[REG_PAY] = hours * rate;
+            pay[OT_PAY] = ((hours - FULL_WEEK) * rate) * OVERTIME_RATE;
             pay[TOTAL_PAY] = pay[REG_PAY] + pay[OT_PAY];
         }
 

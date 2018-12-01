@@ -2,3 +2,7 @@
 200 freud sigmund 50.00 22.50 
 300 johnson lyndon 15.00 32.00 
 400 curie marie 55.00 30.00 
+500 donaldson jerry 2.5 12.5
+600 loya korina 20 55.0
+700 harrison harry 42.0 13.75
+800 thrilling thrills 124 66.6

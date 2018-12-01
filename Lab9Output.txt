@@ -3,6 +3,10 @@ Employee      Employee         Pay         Hours       Regular     Overtime     
  Number         Name           Rate        Worked        Pay          Pay          Pay
 --------   ---------------    ------      --------    ---------   ----------     ------
   100      abraham lincoln    25.00        40.00      1000.00         0.00      1000.00
-  200      sigmund freud      22.50        50.00       900.00       225.00      1125.00
+  200      sigmund freud      22.50        50.00      1125.00       393.75      1518.75
   300      lyndon johnson     32.00        15.00       480.00         0.00       480.00
-  400      marie curie        30.00        55.00      1200.00       450.00      1650.00
+  400      marie curie        30.00        55.00      1650.00       787.50      2437.50
+  500      jerry donaldson    12.50         2.50        31.25         0.00        31.25
+  600      korina loya        55.00        20.00      1100.00         0.00      1100.00
+  700      harry harrison     13.75        42.00       577.50        48.13       625.63
+  800      thrills thrilling  66.60       124.00      8258.40      9790.20     18048.60
